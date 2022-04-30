@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="visualize_light" _name="Visualize Light" version="1.0">
+  <author>Michael R. Krisnadhi</author>
+  <_description>Visual Studio Light Theme</_description>
+
+  <color name="light" value="#ffffff"/>
+  <color name="lightshade" value="#f2f2f2"/>
+  <color name="darkshade" value="#9e9e9e"/>
+  <color name="dark" value="#000000"/>
+  <color name="comment" value="#008000"/>
+  <color name="keyword" value="#0000ff"/>
+  <color name="identifier" value="#267f99"/>
+  <color name="constant" value="#098658"/>
+  <color name="macro" value="#9e9e9e"/>
+  <color name="string" value="#a31515"/>
+  <color name="token" value="#c58080"/>
+  <color name="element" value="#800000"/>
+  <color name="attrname" value="#ff0000"/>
+  <color name="attrvalue" value="#0451a5"/>
+  <color name="highlight" value="#ffff00"/>
+  <color name="selection" value="#add6ff"/>
+  <color name="error" value="#ff0000"/>
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="dark" background="light"/>
+  <style name="line-numbers"                foreground="darkshade" background="light"/>
+  <style name="current-line"                background="lightshade"/>
+  <style name="current-line-number"         background="lightshade"/>
+  <style name="selection"                   foreground="dark" background="selection"/>
+  <style name="cursor"                      foreground="dark"/>
+  <style name="draw-spaces"                 foreground="darkshade"/>
+  <style name="background-pattern"          background="darkshade"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="light" background="keyword"/>
+  <style name="bracket-mismatch"            foreground="light" background="red"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="lightshade" background="lightshade"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="dark" background="highlight"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="comment"/>
+  <style name="def:shebang"                 foreground="dark" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="string"/>
+  <style name="def:special-constant"        foreground="macro"/>
+  <style name="def:special-char"            foreground="token"/>
+  <style name="def:boolean"                 foreground="macro"/>
+  <style name="def:number"                  foreground="constant"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="identifier"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="keyword"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="identifier"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="macro"/>
+  <style name="def:error"                   foreground="light" background="error" bold="true"/>
+  <style name="def:warning"                 foreground="dark" background="highlight"/>
+  <style name="def:note"                    foreground="dark" bold="true"/>
+  <style name="def:net-address"             italic="true" underline="single"/>
+  <style name="def:operator"                foreground="keyword"/>
+
+  <!-- Language specific styles -->
+  <style name="xml:element-name"            foreground="element"/>
+  <style name="xml:attribute-name"          foreground="attrname"/>
+  <style name="xml:attribute-value"         foreground="attrvalue"/>
+
+  <style name="c:storage-class"             foreground="keyword"/>
+</style-scheme>
