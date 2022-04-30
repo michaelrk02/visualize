@@ -76,4 +76,8 @@
   <style name="xml:attribute-value"         foreground="attrvalue"/>
 
   <style name="c:storage-class"             foreground="keyword"/>
+
+  <style name="java:declaration"            foreground="keyword"/>
+  <style name="java:storage-class"          foreground="keyword"/>
+  <style name="java:scope-declaration"      foreground="keyword"/>
 </style-scheme>
