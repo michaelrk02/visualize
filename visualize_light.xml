@@ -9,7 +9,8 @@
   <color name="dark" value="#000000"/>
   <color name="comment" value="#008000"/>
   <color name="keyword" value="#0000ff"/>
-  <color name="identifier" value="#267f99"/>
+  <color name="identifier" value="#001080"/>
+  <color name="type" value="#267f99"/>
   <color name="constant" value="#098658"/>
   <color name="macro" value="#9e9e9e"/>
   <color name="string" value="#a31515"/>
@@ -60,7 +61,7 @@
   <style name="def:statement"               foreground="keyword"/>
 
   <!-- Types -->
-  <style name="def:type"                    foreground="identifier"/>
+  <style name="def:type"                    foreground="type"/>
 
   <!-- Others -->
   <style name="def:preprocessor"            foreground="macro"/>

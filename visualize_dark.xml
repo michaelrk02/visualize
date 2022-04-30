@@ -9,13 +9,14 @@
   <color name="dark" value="#1e1e1e"/>
   <color name="comment" value="#6a9955"/>
   <color name="keyword" value="#569cd6"/>
-  <color name="identifier" value="#4ec9b0"/>
+  <color name="identifier" value="#9cdcfe"/>
+  <color name="type" value="#4ec9b0"/>
   <color name="constant" value="#b5cea8"/>
   <color name="macro" value="#c586c0"/>
   <color name="string" value="#ce9178"/>
   <color name="token" value="#ceb2a8"/>
   <color name="element" value="#569cd6"/>
-  <color name="attrname" value="#4ec9b0"/>
+  <color name="attrname" value="#9cdcfe"/>
   <color name="attrvalue" value="#ce9178"/>
   <color name="highlight" value="#ffd133"/>
   <color name="selection" value="#add6ff"/>
@@ -60,7 +61,7 @@
   <style name="def:statement"               foreground="keyword"/>
 
   <!-- Types -->
-  <style name="def:type"                    foreground="identifier"/>
+  <style name="def:type"                    foreground="type"/>
 
   <!-- Others -->
   <style name="def:preprocessor"            foreground="macro"/>
